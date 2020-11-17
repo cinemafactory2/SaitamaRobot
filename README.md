@@ -5,9 +5,9 @@
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [BOSS™️](https://http://t.me/Cfchatproject10_bot).
+Can be found on telegram as [BOSS™️](http://t.me/Cfchatproject10_bot).
 
-The Support group can be reached out to at [One Punch Support](https://t.me/OnePunchSupport), where you can ask for help about [SaitamaRobot](https://t.me/SaitamaRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [CF CHAT PROJECT Support](https://t.me/cfchatproject_support), where you can ask for help about [SaitamaRobot](https://t.me/SaitamaRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [Cf project](https://t.me/CFCHATproject) 
 ## How to setup/deploy.
@@ -24,7 +24,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnimeKaizoku/SaitamaRobot.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cinemafactory2/SaitamaRobot)
 
 </details>  
 <details>
@@ -162,7 +162,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from SaitamaRobot import dispatcher`.
+`from CF CHAT PROJECT import dispatcher`.
 
 You can then add commands using the usual
 
@@ -192,12 +192,12 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnimeKaizoku/SaitamaRobot.git) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cinemafactory2/SaitamaRobot) 
 
 
 ## Credits
-The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
-This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
+The bot is based on the original work done by [CINEMA FACTORY](https://github.com/cinemafactory2)
+This repo was just revamped to suit an Anime-centric community. All original credits go to cinema factory  and his dedication, Without his efforts, this fork would not have been possible!
 
 Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (will add it later, this note says unless it is done)
 
