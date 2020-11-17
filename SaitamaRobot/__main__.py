@@ -5,7 +5,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from SaitamaRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from boss import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
                           dispatcher, StartTime, telethn, updater)
 # needed to dynamically load modules
@@ -53,9 +53,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+Are you find a group management bot why you give me a chance 
+You can add any type of filters in me with unlimited 
+And i am maintained by[this person](https.//t.me/Darkangewl)
+*TO GET MY FEATURES HIT /help
 """
 
 HELP_STRINGS = """
@@ -70,7 +71,7 @@ the things I can help you with.
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-
+ •filter 
 
 {}
 And the following:
@@ -83,7 +84,7 @@ SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him; [PayPal](paypal.me/naseefw)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
